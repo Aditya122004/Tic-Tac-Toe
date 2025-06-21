@@ -1,0 +1,52 @@
+.block{
+    border:1px solid black;
+    height:70px;
+    width:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.root{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    overflow:auto;
+}
+.board3{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+.turn{
+    font-size:30px;
+}
+.board4{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+}
+.board5{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+.board6{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto auto;
+}
+.board7{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto auto auto;
+}
+.board8{
+     display:grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto;
+}
+.board9{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto;
+}
+.board10{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto;
+}
